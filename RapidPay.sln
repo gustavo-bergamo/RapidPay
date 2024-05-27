@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RapidPay.API", "RapidPay.API\RapidPay.API.csproj", "{2D6A6B0E-A2FF-4935-B8E6-10F1520D54EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RapidPay.DependencyInjection", "RapidPay.DependencyInjection\RapidPay.DependencyInjection.csproj", "{EAA59771-4220-4975-BAFE-83123620378B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RapidPay.Data", "RapidPay.Data\RapidPay.Data.csproj", "{01ACF761-297F-46F6-9F76-2F91D1998D75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RapidPay.Domain", "RapidPay.Domain\RapidPay.Domain.csproj", "{26D24761-9966-4D69-AE1E-6A9332A05B98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RapidPay.CrossProject", "RapidPay.CrossProject\RapidPay.CrossProject.csproj", "{78613681-075D-4467-9313-28821D83BF7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RapidPay.Test", "RapidPay.Test\RapidPay.Test.csproj", "{0E4067E0-2DB5-4846-9DBA-B0054DD468A5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D6A6B0E-A2FF-4935-B8E6-10F1520D54EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D6A6B0E-A2FF-4935-B8E6-10F1520D54EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D6A6B0E-A2FF-4935-B8E6-10F1520D54EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D6A6B0E-A2FF-4935-B8E6-10F1520D54EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAA59771-4220-4975-BAFE-83123620378B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAA59771-4220-4975-BAFE-83123620378B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAA59771-4220-4975-BAFE-83123620378B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAA59771-4220-4975-BAFE-83123620378B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01ACF761-297F-46F6-9F76-2F91D1998D75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01ACF761-297F-46F6-9F76-2F91D1998D75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01ACF761-297F-46F6-9F76-2F91D1998D75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01ACF761-297F-46F6-9F76-2F91D1998D75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26D24761-9966-4D69-AE1E-6A9332A05B98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26D24761-9966-4D69-AE1E-6A9332A05B98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26D24761-9966-4D69-AE1E-6A9332A05B98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26D24761-9966-4D69-AE1E-6A9332A05B98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78613681-075D-4467-9313-28821D83BF7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78613681-075D-4467-9313-28821D83BF7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78613681-075D-4467-9313-28821D83BF7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78613681-075D-4467-9313-28821D83BF7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E4067E0-2DB5-4846-9DBA-B0054DD468A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E4067E0-2DB5-4846-9DBA-B0054DD468A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E4067E0-2DB5-4846-9DBA-B0054DD468A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E4067E0-2DB5-4846-9DBA-B0054DD468A5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {64AC35EB-F097-4E7D-9438-4105D33FE124}
+	EndGlobalSection
+EndGlobal
